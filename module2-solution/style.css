@@ -1,0 +1,392 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+ /*framework*/
+ .row {
+ 	width: 100%
+ }
+
+/*title*/
+.title {
+	text-align: center;
+	color: rgb(0,0,0);
+	font-size: 28px;
+	font-family: Comic Sans MS, serif;
+	
+	font-weight: bold;
+	position: relative;
+
+}
+ 
+ /*Cards*/
+ .cardone {
+ 	background-color: rgb(153,153,153);
+ 	
+ 	position: relative;
+ 	
+
+ 	
+ }
+
+ .cardtwo {
+ 	background-color: rgb(153,153,153);
+ 	
+ 	position: relative;
+ 	
+ 	
+ }
+
+ .cardthree {
+ 	background-color: rgb(153,153,153);
+ 	
+ 	position: relative;
+
+ 	 
+ }
+
+ /*Plats*/
+.platone {
+	width:35%;
+	height: 20%;
+	display: table;
+	float: right;
+	background-color: rgb(213,152,152);
+	border-left: 2px;
+	border-top: 0px;
+	border-right:0px;
+	border-bottom:2px;
+	border-style: groove;
+	border-color: black;
+	font-size: 20px;
+	font-family: Comic Sans MS, serif;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	position: relative;
+
+}
+.platwo {
+	width:35%;
+	height: 20%;
+	display: table;
+	float: right;
+	background-color: rgb(193,69,67);
+	color:white;
+	border-top: 0px;
+	border-right:0px;
+	border-left: 2px;
+	border-bottom:2px;
+	border-style: groove;
+	border-color: black;
+	font-size: 20px;
+	font-family: Comic Sans MS, serif;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	position: relative;
+}
+.plathree {
+	width:35%;
+	height: 20%;
+	display: table;
+	float: right;
+	background-color: rgb(229,209,152);
+	border-left: 2px;
+	border-top: 0px;
+	border-right:0px;
+	border-bottom:2px;
+	border-style: groove;
+	border-color: black;
+	font-size: 20px;
+	font-family: Comic Sans MS, serif;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	position: relative;
+}
+
+ /*paragraphs*/
+#p1 {
+background-color: rgb(153,153,153);
+color: rgb(0,0,0);
+padding: 3%;
+font-size: 16px;
+
+}
+
+#p2 {
+background-color: rgb(153,153,153);
+color: rgb(0,0,0);
+padding: 3%;
+font-size: 16px;
+
+}
+
+
+#p3 {
+background-color: rgb(153,153,153);
+color: rgb(0,0,0);
+padding: 3%;
+font-size: 16px;
+ }
+
+
+
+.image{
+	float: right;
+}
+.footer {
+	display: table;
+	background-color: rgb(195,195,195);
+    float: bottom;
+
+}
+ /*Desktop Devices*/
+ @media (min-width: 992px) { .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+ 	.col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 2px groove black;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+.title {
+	margin-top: 3%;
+}
+.cardone{
+	width:30%;
+	margin-left:3%;
+	margin-right: 1%;
+	margin-top: 3%;
+}
+.cardtwo{
+	width:30%;
+	margin-left:1%;
+	margin-right: 1%;
+	margin-top: 3%;
+	
+}
+.cardthree{
+	width:30%;
+	margin-left:1%;
+	margin-right: 3%;
+	margin-top: 3%;
+	
+	
+}
+
+
+
+
+
+.footer {
+	margin-top: 15%;
+	width: 100%;
+	border: 2px groove black;
+    
+
+} }
+/* Tablet devices*/
+
+@media (min-width: 768px) and  (max-width:991px) { .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+	.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 2px groove black;
+  }
+  
+..col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+
+.title {
+	margin-top: 3%;
+}
+
+.cardone{
+	width:45%;
+	margin-left:3%;
+	margin-right: 2%;
+	margin-top: 3%;
+}
+.cardtwo{
+	width:45%;
+	margin-left:3%;
+	margin-right: 2%;
+	margin-top: 3%;
+	
+}
+.cardthree{
+	width:95%;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-bottom:10%;
+	margin-top: 3%;
+	
+	
+}
+
+
+
+.footer {
+	margin-top: 15%;
+	width: 100%;
+	border: 2px groove black;
+    
+
+}  }
+
+}
+
+/* Mobile Devices*/
+
+@media   (max-width:767px) { .col-sx-1, .col-sx-2, .col-sx-3, .col-sx-4, .col-sx-5, 
+	.col-sx-6, .col-sx-7, .col-sx-8, .col-sx-9, .col-sx-10, .col-sx-11, .col-sx-12 {
+    float: left;
+    border: 10px groove black;
+  }
+  
+..col-sx-1 {
+    width: 8.33%;
+  }
+  .col-sx-2 {
+    width: 16.66%;
+  }
+  .col-sx-3 {
+    width: 25%;
+  }
+  .col-sx-4 {
+    width: 33.33%;
+  }
+  .col-sx-5 {
+    width: 41.66%;
+  }
+  .col-sx-6 {
+    width: 50%;
+  }
+  .col-sx-7 {
+    width: 58.33%;
+  }
+  .col-sx-8 {
+    width: 66.66%;
+  }
+  .col-sx-9 {
+    width: 74.99%;
+  }
+  .col-sx-10 {
+    width: 83.33%;
+  }
+  .col-sx-11 {
+    width: 91.66%;
+  }
+  .col-sx-12 {
+    width: 100%;
+  }
+ 	 
+
+.title {
+	margin-top: 3%;
+}
+.cardone{
+	width:70%;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	
+}
+.cardtwo{
+    width:70%;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	
+}
+.cardthree{
+	width:70%;
+	margin-left:3%;
+	margin-right: 3%;
+	margin-top: 3%;
+
+	
+	
+}
+
+.footer {
+	margin-top: 15%;
+	width: 100%;
+	border: 2px groove black;
+    
+
+} 
+
+ }
